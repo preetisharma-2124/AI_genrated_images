@@ -10,13 +10,13 @@ def main():
     images = get_images_from_folder(RAW_FOLDER)
 
     if not images:
-        print("⚠️ No images found in input_images/ folder.")
+        print(" No images found in input_images/ folder.")
         return
 
     print(f"Found {len(images)} images to process...")
 
     for img in images:
-        print(f"✨ Processing: {img}")
+        print(f" Processing: {img}")
         result = generate_lively_background(img, OUTPUT_FOLDER)
         if result:
             print(f" Generated: {result}")
