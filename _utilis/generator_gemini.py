@@ -31,5 +31,5 @@ def generate_lively_background(input_image_path, output_folder):
         return output_file
 
     except Exception as e:
-        print(f"❌ Error generating image for {input_image_path}: {e}")
+        print(f"Error generating image for {input_image_path}: {e}")
         return None

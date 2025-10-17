@@ -19,9 +19,9 @@ def main():
         print(f"✨ Processing: {img}")
         result = generate_lively_background(img, OUTPUT_FOLDER)
         if result:
-            print(f"✅ Generated: {result}")
+            print(f" Generated: {result}")
         else:
-            print(f"❌ Failed: {img}")
+            print(f" Failed: {img}")
 
 if __name__ == "__main__":
     main()
